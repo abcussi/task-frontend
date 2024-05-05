@@ -95,7 +95,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles/layaout.scss",
+              "src/assets/styles/global.scss"
             ],
             "scripts": []
           }
