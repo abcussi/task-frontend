@@ -1,0 +1,27 @@
+:root {
+  --base-font-family: ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --base-line-height: 1.75;
+  --base-font-weight: 400;
+  --base-text-colour: #ffffff;
+  --heading-font-weight: inherit;
+  --heading-line-height: 1.3;
+
+  /* Colours */
+  --global-colour-primary: #62a0ff;
+  --global-colour-secondary: #54595f;
+  --global-colour-text: #7a7a7a;
+  --global-colour-accent: #1e95ff;
+  --global-colour-highlight: #ffff00;
+  --global-colour-accent2: #ff0059;
+
+  --global-background-colour: #2d2d2d;
+  /* flow */
+  --flow-block-spacing: 2.5rem;
+  --flow-inline-spacing: 1.25rem;
+
+  /* prose */
+  --prose-max-width: 70ch;
+}

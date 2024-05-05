@@ -1,0 +1,20 @@
+:root {
+  /* Existing variables */
+  --base-font-family: ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --global-background-colour: #2d2d2d;
+
+  /* Add this */
+  --padding: 1rem; /* Example value */
+}
+
+body {
+  background-color: var(--global-background-colour);
+  color: white;
+}
+
+main {
+  padding: var(--padding);
+}
